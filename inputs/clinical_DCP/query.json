@@ -1,0 +1,22 @@
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "n0": {
+                     "ids": ["SNOMEDCT:230780007"],
+                     "categories": ["biolink:DiseaseOrPhenotypicFeature"]
+                },
+                "n1": {
+                    "categories": ["biolink:DiseaseOrPhenotypicFeature"]
+                }
+            },
+            "edges": {
+                "e01": {
+                    "subject": "n0",
+                    "object": "n1",
+                    "predicates": ["biolink:has_real_world_evidence_of_association_with"]
+                }
+            }
+        }
+    }
+}
